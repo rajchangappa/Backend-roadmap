@@ -55,12 +55,7 @@ node server.js --port=8080 development
 adds `"--port=8080"` and `"development"` to the array:
 
 ```javascript
-[
-  "/usr/local/bin/node",
-  "/path/to/server.js",
-  "--port=8080",
-  "development",
-];
+["/usr/local/bin/node", "/path/to/server.js", "--port=8080", "development"];
 ```
 
 For more complex argument parsing, you can use libraries such as `minimist` or `commander`, or Node.js's built-in `util.parseArgs()`.
