@@ -2,7 +2,7 @@
 
 ## 1. HTTP and Statelessness
 
-HTTP (Hypertext Transfer Protocol) is the standard medium clients use to request resources from a backend server via a stateless model. **Statelessness** means the server treats every request independently, immediately forgetting past interactions once a response is sent. While this requires sending self-contained data (like authentication tokens) with every request, it dramatically improves scalability and fault tolerance.
+HTTP (Hypertext Transfer Protocol) is the standard medium clients use to request resources from a backend server via a stateless model. **Statelessness**    means the server treats every request independently, immediately forgetting past interactions once a response is sent. While this requires sending self-contained data (like authentication tokens) with every request, it dramatically improves scalability and fault tolerance.
 
 - **Example:** When a user clicks a profile link, the browser sends an independent HTTP request carrying the session token; the server responds with user data and retains no memory of the click afterward.
 
